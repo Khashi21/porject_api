@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: coral;
+    color: rgb(70, 2, 42);
+}
+
+.enteramt{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;    
+    height:20rem;
+    width: 20rem;
+}
+
+form{
+    border-radius: 20px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 50rem;
+    background-color: ivory;
+}
+
+input{
+    padding-left: 5%;
+    width: 20rem;
+    height: 2rem;;
+    border-radius: 1.5rem;
+    border: radius 10px;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    height:20rem;
+    width: 100%;
+} 
+
+
+.font{
+    padding: 30px;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black;
+}
+
+.from,.to{
+    border-radius: 5rem;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width: 20rem;
+    margin-bottom: 10%;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width:20rem;
+    height:3rem;
+    border-radius:10px;
+    cursor:pointer;
+    background-color:lightcoral;
+}
